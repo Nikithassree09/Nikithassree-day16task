@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class= "container" style= "padding: 250px; width: 100px;  margin: right 100px; padding-left: 5px; display: block; padding-top: 210px; border-color: black; border: 3px;">
+    <div class="card text-dark bg-light mb-3" style="width: 18rem; text-align: center; margin: left 100px; margin: right 100px; ">
+        <div id="block">
+            <h2 id="display"></h2>
+        </div>
+        <div class="card-body">
+        </div>
+      </div>
+    </div>
+    <script>
+    setTimeout(()=>{
+        document.getElementById("display").innerText="10";
+         setTimeout(()=>{
+             document.getElementById("display").innerText="9";
+             setTimeout(()=>{
+                 document.getElementById("display").innerText="8"; 
+                 setTimeout(()=>{
+                     document.getElementById("display").innerText="7"; 
+                     setTimeout(()=>{
+                         document.getElementById("display").innerText="6"; 
+                         setTimeout(()=>{
+                             document.getElementById("display").innerText="5";
+                             setTimeout(()=>{
+                                 document.getElementById("display").innerText="4";  
+                                 setTimeout(()=>{
+                                     document.getElementById("display").innerText="3";  
+                                     setTimeout(()=>{
+                                         document.getElementById("display").innerText="2";
+                                         setTimeout(()=>{
+                                             document.getElementById("display").innerText =
+                                             "Happy Independence Day!!";
+                                         },1000);
+                                     },1000);  
+                                 },1000);
+                             },1000) ;
+                         },1000);
+                     },1000);
+                 },1000);
+             },1000);
+         },1000);
+     },1000);
+    </script>
+</div>
+</body>
+</html>
